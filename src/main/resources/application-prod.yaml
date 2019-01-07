@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+        enableApi: true
+      reload:
+        enabled: true
+        strategy: restart_context
+        mode: event
+  rabbitmq:
+    host: rabbitmq
+    port: 5672

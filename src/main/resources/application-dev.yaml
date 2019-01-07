@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    username: admin
+    password: secret-rabbit
+    host: ec2-18-185-211-132.eu-central-1.compute.amazonaws.com
+    port: 31086

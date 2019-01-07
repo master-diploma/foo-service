@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  rabbitmq:
+    username: guest
+    password: guest
+    exchange: foo
+    routingkey: foobar
+
+endpoints:
+  restart:
+    enabled: true
